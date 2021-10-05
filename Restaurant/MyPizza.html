@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">  //name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyPizza</title>
+    <style type="text/css">
+        body {
+            background-image: url("background.jpg");
+
+            margin:0;
+        }
+        head {
+            background-color: #0015ff;
+            color: #0090f0;
+        }
+        a:link, a:visited, a:hover, a:active {
+
+            border-style:solid;
+            border-width:thin;
+            font-family:Verdana, Arial, Helvetica, sans-serif;
+            font-size:small;
+            padding:10px 20px;
+            text-align:center;
+            text-decoration:none;
+            text-transform:uppercase;
+        }
+        a:link {
+            background-color:#00807c;
+            border-color:#0000FF grey #00807c #0000FF;
+            color:#000;
+        }
+        a:visited {
+            background-color:#00807c;
+            border-color: #015aff dodgerblue dodgerblue #015aff;
+            color:#8B008B;
+        }
+        a:hover {
+            background-color:#004b80;
+            background-image:url(burst.jpg);
+            border-color:olive #F0E68C #F0E68C olive;
+            color:#FF8C00;
+        }
+        a:active {
+            background-color: #004b80;
+            border-color: #015aff dodgerblue dodgerblue #015aff;
+            color:#F0E68C;
+        }
+        ul{
+            z-index: 10;
+            position: sticky;
+            top: 2.5em;
+            left: 1%;
+            width: 100%;
+            list-style-type: none;
+            margin-top: 0;
+            padding: 0;
+            height: 45px;
+            border-radius: 0px 0px 0px 25px;
+            overflow: hidden;
+            background-image: url("Menübar.png");
+        }
+        titleStyle {
+            z-index: 10;
+            position: sticky;
+            width:100%;
+            right:  auto;
+            font-family:Verdana, Arial, Helvetica, sans-serif;
+            font-size:large;
+            background-color:#FFC;
+            border:1px solid #036;
+            margin-right:2em;
+            padding-left:1em;
+        }
+        #containerLeft {
+            margin-top: 50px;
+            margin-left: 0;
+            margin-right: auto;
+            width: 50%;
+            background-color: white;
+            border-radius: 5px 30px 5px 30px;
+            color: blue;
+            text-align: left;
+            padding: 1%;
+        }
+
+        #containerMiddle {
+            margin-top: 50px;
+            margin-left: 25%;
+            margin-right: auto;
+            width: 50%;
+            background-color: white;
+            border-radius: 1px 10px 1px 10px;
+            color: blue;
+            text-align: left;
+            padding: 1%;
+        }
+        #containerRight {
+            margin-top: 50px;
+            margin-left: 25%;
+            margin-right: auto;
+            width: 25%;
+            background-color: white;
+            border-radius: 5px 20px 5px 20px;
+            color: blue;
+            text-align: left;
+            padding: 1%;
+        }
+        #containerWhole {
+            margin-top: auto;
+            margin-left: 0;
+            margin-right: auto;
+            width: 100%;
+            background-color: white;
+            border-radius: 5px 30px 5px 30px;
+            color: blue;
+            text-align: left;
+            padding: 1%;
+        }
+        #containerFooter {
+            margin-top: auto;
+            margin-left: 0;
+            margin-right: auto;
+            width: 100%;
+            background-color: white;
+            border-radius: 5px 30px 5px 30px;
+            color: blue;
+            text-align: left;
+            padding: 1%;
+        }
+    </style>
+
+</head>
+<body>
+<titleStyle >
+    <titel> MyPizza</titel>
+</titleStyle>
+
+<p >
+<ul >
+    <a href="MyPizza.html">Home</a> |
+    <a href="Pizza.html">Pizza</a> |
+    <a href="Salad.html">Salad</a> |
+    <a href="Soft%20drinks.html">Soft Drinks</a>
+    <a href="Feedback.html">Feedback</a>
+</ul>
+</p>
+<div id="containerMiddle">
+    <p>Welcome to MyPizza Factory</p>
+
+    <img src="Ofen.png" width="30%" height="30%">
+</div>
+
+<div id="containerWhole">
+    <a href="Pizza.html"> <img src="Margherita.png" width="30%" height="30%"> Pizza</a>
+    <a href="Soft%20drinks.html"> <img src="FruitiDrink.png" width="30%" height="30%">Soft Drinks</a>
+    <a href="Salad.html"></a> <img src="FreshSalad.png" width="30%" height="30%">Salad</a>
+</div>
+
+</body>
+</html>
